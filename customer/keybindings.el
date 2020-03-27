@@ -1,3 +1,8 @@
+;; customized varible
+;; projectile-globally-ignored-directories, which set project grep  filter directory
+;; lsp-file-watch-ignored
+;; helm-make-arguments
+
 ;; basic
 (global-set-key (kbd "M-p")         (quote copy-paragraph))
 (global-set-key (kbd "M-c")         (quote thing-copy-string-to-mark))
