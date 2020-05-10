@@ -358,6 +358,12 @@ you should place your code here."
   ;; go
   (add-hook 'go-mode-hook '(lambda ()
                              (local-set-key (kbd "M-.") 'godef-jump)))
+  ;; (add-hook 'go-mode-hook '(lambda ()
+  ;;                            (local-set-key (kbd "M-.") 'lsp-find-definition)))
+  (add-hook 'go-mode-hook '(lambda ()
+                             (local-set-key (kbd "M-g r") 'lsp-find-references)))
+  (add-hook 'go-mode-hook '(lambda ()
+                             (local-set-key (kbd "M-g i") 'lsp-find-implementation)))
 
   ;; lsp
   (use-package lsp-mode
