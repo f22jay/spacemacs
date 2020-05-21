@@ -361,7 +361,7 @@ you should place your code here."
   ;; (add-hook 'go-mode-hook '(lambda ()
   ;;                            (local-set-key (kbd "M-.") 'lsp-find-definition)))
   (add-hook 'go-mode-hook '(lambda ()
-                             (local-set-key (kbd "M-g r") 'lsp-find-references)))
+                             (local-set-key (kbd "M-g /") 'lsp-find-references)))
   (add-hook 'go-mode-hook '(lambda ()
                              (local-set-key (kbd "M-g i") 'lsp-find-implementation)))
 
