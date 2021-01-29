@@ -35,6 +35,7 @@
 (setq compilation-read-command nil)
 ;; 定位编译错误
 (global-set-key (kbd "C-c n") 'next-error)
+
 (define-key global-map (kbd "C-c c") 'smart-compile)
 
 
